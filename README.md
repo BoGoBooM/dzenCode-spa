@@ -7,6 +7,7 @@ This is a test project for the **Dzencode** team. It implements basic functional
 ## Technologies Used (Junior Level)
 
 - **React.js**
+- **Vite**
 - **Redux Toolkit**
 - **TypeScript**
 - **React-Bootstrap**
