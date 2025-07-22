@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useSocket } from '../../hooks/useSocket';
+import { useSessionStats } from '../../hooks/useSessionStats';
 import './TopMenu.scss';
 import dayjs from 'dayjs';
 
 const TopMenu = () => {
   const [currentTime, setCurrentTime] = useState<string>('');
-  const { activeSessions } = useSocket();
+  const { activeSessions } = useSessionStats();
 
   useEffect(() => {
     const updateTime = () => setCurrentTime(dayjs().format('YYYY-MM-DD HH:mm:ss'));
