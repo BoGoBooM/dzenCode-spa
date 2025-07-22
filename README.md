@@ -25,7 +25,7 @@ This is a test project for the **Dzencode** team. It implements basic functional
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/dzencode-spa.git
+git clone https://github.com/BoGoBooM/dzenCode-spa.git
 cd dzencode
 ```
 
